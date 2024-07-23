@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tipohetereum.sol": "EjemploTiposDeDatosContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tipohetereum.sol": {
+			"keccak256": "0x94a8446783f05cf69d8c62f949851b0022c564ca8548939a5ff087c1b9a9daef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cc8871cfacdc01f9775a8c67182fa26dcd9cb3b9837906f155467f203e2104d2",
+				"dweb:/ipfs/QmfAaVtaqMcxPaxRsKYmgxJKkmzSkc5KLLrMrP8hQH8ZMR"
+			]
+		}
+	},
+	"version": 1
+}
